@@ -1,0 +1,9 @@
+Main -> DayTrackerView
+Main -> DayTrackerController
+Main -> DatabaseManager
+
+DayTrackerController -> DayTrackerView
+DayTrackerController -> DatabaseManager
+
+DatabaseManager -> Task
+DatabaseManager -> SessionEntry
