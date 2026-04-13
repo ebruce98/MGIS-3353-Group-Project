@@ -55,12 +55,6 @@ Day Tracker is a JavaFX desktop application for planning daily tasks, running fo
 - SQLite persistence for tasks and sessions
 - Automatic database creation on first run
 
-## Known Limitations
-
-- The project depends on the SQLite JDBC jar being present in the jGRASP classpath
-- UML is provided as an image and a simple source diagram text file rather than generated automatically in the IDE
-- No cloud sync or multi-user support
-
 ## Demo Data
 
 The application can be demonstrated by adding tasks and running sessions during the presentation. The database file `daytracker.db` is created automatically on first run.
